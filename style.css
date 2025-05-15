@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+header input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+nav {
+  background-color: #ff0000;
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  margin: 0;
+}
+.filter-btn {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.filter-btn:hover {
+  background-color: #ddd;
+}
+main {
+  padding: 30px 0;
+}
+.exercise-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+.exercise-card img {
+  width: 50%;
+  max-height: 220px;
+  object-fit:contain
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  background-color:#eee;
+}
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+
