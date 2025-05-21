@@ -62,13 +62,12 @@ main {
 }
 .exercise-card img {
   width: 50%;
-  max-height: 220px;
-  object-fit:contain
+  max-height: 230px;
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
-  background-color:#eee;
+  background: color #333;
 }
 footer {
   background-color: #000000;
