@@ -64,10 +64,18 @@ nav a {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  color: black; /* Yazı rengi siyah */
+  text-align: center;
+  text-decoration: none; /* Link altı çizgi kaldır */
+  display: inline-block; /* Linki buton gibi yap */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Hafif gölge */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .filter-btn:hover {
   background-color: #ddd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: black;
 }
 
 /* Ana İçerik */

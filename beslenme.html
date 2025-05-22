@@ -2,32 +2,130 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Beslenme Programı - GYMTRACK</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .nutrition-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .nutrition-card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .nutrition-card:hover {
+      transform: scale(1.03);
+    }
+
+    .nutrition-card h2 {
+      margin-top: 0;
+      color: #d62828;
+    }
+
+    .nutrition-card p {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      color: #d62828;
+      text-decoration: none;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>GYMTRACK</h1>
-    <nav>
+
+<header>
+  <h1>BESLENME PROGRAMLARI</h1>
+  <p>VÜCUT TİPİNİZE UYGUN SAĞLIKLI BESLENME ÖNERİLERİ</p>
+</header>
+
+<div class="nutrition-container">
+  <div class="nutrition-card">
+    <h2>Zayıflar İçin Kilo Alma</h2>
+    <p>
+      Günlük 5-6 öğün tüketmeye özen gösterin. Yüksek kalorili, kaliteli yağ ve protein içeren besinleri tercih edin.
+      Yulaf ezmesi, fıstık ezmesi, süt, kuruyemiş, muz, kırmızı et gibi besinler öğünlerinize eklenmeli.
+
+       <ul>
+      <li><strong>Kahvaltı:</strong> Yulaf ezmesi, tam yağlı süt, muz ve fıstık ezmesi</li>
+      <li><strong>Ara Öğün:</strong> Kuruyemiş (badem, ceviz), yoğurt</li>
+      <li><strong>Öğle Yemeği:</strong> Kırmızı et veya tavuk, bulgur pilavı, sebze</li>
+      <li><strong>Ara Öğün:</strong> Tam tahıllı sandviç, peynir</li>
+      <li><strong>Akşam Yemeği:</strong> Balık veya et, patates veya makarna, salata</li>
+      <li><strong>Gece Atıştırması:</strong> Süt, lor peyniri veya bir avuç kuru meyve</li>
+    </ul>
+    Bol su içmeyi ve düzenli egzersiz yapmayı unutmayın.
+    </p>
+  </div>
+  <div class="nutrition-card">
+    <h2>Kilolular İçin Kilo Verme</h2>
+    <p>
+      Günlük kalori ihtiyacınızdan daha az kalori alarak yağ kaybı sağlayabilirsiniz. Sebze ve protein ağırlıklı beslenin.
+      Şekerli, unlu gıdalardan kaçının. Su tüketimini artırın ve işlenmiş gıdalardan uzak durun.
+
       <ul>
-        <li><a href="index.html">Ana Sayfa</a></li>
-        <li><button class="filter-btn">Beslenme</button></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Örnek Beslenme Programı</h2>
-      <ul>
-        <li><strong>Kahvaltı:</strong> Yulaf ezmesi, süt, 2 haşlanmış yumurta</li>
-        <li><strong>Ara Öğün:</strong> Bir avuç badem</li>
-        <li><strong>Öğle:</strong> Tavuk göğsü, bulgur pilavı, sebze</li>
-        <li><strong>Ara Öğün:</strong> Yoğurt ve meyve</li>
-        <li><strong>Akşam:</strong> Izgara somon veya kırmızı et, yeşil salata</li>
-        <li><strong>Gece:</strong> Lor peyniri ve ceviz</li>
-      </ul>
-    </section>
-  </main>
+      <li><strong>Kahvaltı:</strong> Yulaf ezmesi, şekersiz bitki çayı, 1 adet haşlanmış yumurta</li>
+      <li><strong>Ara Öğün:</strong> 1 adet taze meyve (elma, armut gibi)</li>
+      <li><strong>Öğle Yemeği:</strong> Izgara tavuk veya balık, bol yeşil salata (zeytinyağlı)</li>
+      <li><strong>Ara Öğün:</strong> Yoğurt veya kefir, çiğ sebzeler (havuç, salatalık)</li>
+      <li><strong>Akşam Yemeği:</strong> Sebze çorbası, az yağlı peynir, tam buğday ekmeği</li>
+      <li><strong>Gece Atıştırması:</strong> Bitki çayı, birkaç badem veya ceviz</li>
+    </ul>
+    Şekerli ve işlenmiş gıdalardan uzak durun, su tüketimini artırın ve düzenli hareket edin.
+
+    </p>
+  </div>
+  <div class="nutrition-card">
+    <h2>Kas Kütlesi Kazanmak</h2>
+    <p>
+      Antrenman sonrası kaliteli karbonhidrat ve protein alımı kas gelişimi için önemlidir. Tavuk, yumurta, mercimek, pilav ve sebzeleri dengeli tüketin.
+      Günde 1.6 - 2.2 gram/kg protein alımı idealdir.
+
+       <ul>
+      <li><strong>Kahvaltı:</strong> Yumurta, tam buğday ekmeği, lor peyniri, domates, salatalık</li>
+      <li><strong>Ara Öğün:</strong> Protein shake veya yoğurt, bir avuç badem</li>
+      <li><strong>Öğle Yemeği:</strong> Izgara tavuk, bulgur pilavı, bol sebze</li>
+      <li><strong>Ara Öğün:</strong> Ton balıklı salata veya mercimek çorbası</li>
+      <li><strong>Antrenman Sonrası:</strong> Muz ve protein shake</li>
+      <li><strong>Akşam Yemeği:</strong> Izgara balık, sebze yemeği, az miktarda karbonhidrat</li>
+      <li><strong>Gece Atıştırması:</strong> Süt veya lor peyniri</li>
+    </ul>
+    Günde kilogram başına 1.6 - 2.2 gram protein alımı kas gelişimi için idealdir. Su tüketimini ihmal etmeyin.
+    </p>
+  </div>
+</div>
+
+<a class="back-link" href="index.html">← Ana Sayfaya Dön</a>
+
 </body>
 </html>
