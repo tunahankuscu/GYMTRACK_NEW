@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Antrenman Programları - GYMTRACK</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .training-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .training-card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .training-card:hover {
+      transform: scale(1.03);
+    }
+
+    .training-card h2 {
+      margin-top: 0;
+      color: #007bff; /* Mavi ton, beslenmedeki kırmızının yerine */
+    }
+
+    .training-card p {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ANTRENMAN PROGRAMLARI</h1>
+  <p>HEDEFİNİZE UYGUN ANRENMAN ÖNERİLERİ</p>
+</header>
+
+<div class="training-container">
+  <div class="training-card">
+    <h2>Zayıflamak İsteyenler İçin</h2>
+    <p>
+      Kardiyo egzersizleri, HIIT ve vücut ağırlığı hareketleriyle kilo vermeye odaklanın.
+<ul>
+    <li><strong>Pazartesi (Kardiyo & Göğüs):</strong>
+      <ul>
+        <li>Koşu veya hızlı yürüyüş: 30-40 dakika</li>
+        <li>Push-ups: 4 set x 15-20 tekrar</li>
+        <li>Dumbbell Bench Press: 4 set x 12-15 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Salı (Sırt & Karın):</strong>
+      <ul>
+        <li>Rowing Machine: 20-30 dakika</li>
+        <li>Pull-ups veya Assisted Pull-ups: 4 set x maksimum tekrar</li>
+        <li>Plank: 3 set x 1 dakika</li>
+        <li>Russian Twist: 3 set x 20 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Çarşamba (Bacak & Kardiyo):</strong>
+      <ul>
+        <li>Squat: 4 set x 15 tekrar</li>
+        <li>Walking Lunges: 3 set x 20 adım</li>
+        <li>Bisiklet sürme: 30 dakika</li>
+      </ul>
+    </li>
+    <li><strong>Perşembe:</strong> Dinlenme veya hafif esneme</li>
+    <li><strong>Cuma (Omuz & Kardiyo):</strong>
+      <ul>
+        <li>Jump Rope: 15-20 dakika</li>
+        <li>Overhead Dumbbell Press: 4 set x 12-15 tekrar</li>
+        <li>Lateral Raises: 4 set x 15 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Cumartesi (Full Body & Kardiyo):</strong>
+      <ul>
+        <li>Burpees: 3 set x 15 tekrar</li>
+        <li>Bodyweight Squats: 3 set x 20 tekrar</li>
+        <li>Mountain Climbers: 3 set x 30 tekrar</li>
+        <li>Hafif koşu veya yürüyüş: 20 dakika</li>
+      </ul>
+    </li>
+    <li><strong>Pazar:</strong> Dinlenme ve iyileşme</li>
+  </ul>
+    </p>
+  </div>
+
+  <div class="training-card">
+    <h2>Kilo Almak İsteyenler İçin</h2>
+    <p>
+      Ağırlık çalışmaları ve yeterli dinlenmeyle kas kütlesi artırmaya odaklanın.
+ <ul>
+    <li><strong>Pazartesi (Göğüs & Triceps):</strong>
+      <ul>
+        <li>Bench Press: 4 set x 8-10 tekrar</li>
+        <li>Incline Dumbbell Press: 4 set x 10-12 tekrar</li>
+        <li>Cable Fly: 3 set x 12-15 tekrar</li>
+        <li>Triceps Pushdown: 3 set x 12-15 tekrar</li>
+        <li>Dips: 3 set x 10-12 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Salı (Sırt & Biceps):</strong>
+      <ul>
+        <li>Barbell Row: 4 set x 8-10 tekrar</li>
+        <li>Lat Pulldown: 4 set x 10-12 tekrar</li>
+        <li>Dumbbell Curl: 3 set x 12 tekrar</li>
+        <li>Hammer Curl: 3 set x 12 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Çarşamba (Bacaklar):</strong>
+      <ul>
+        <li>Squat: 4 set x 8-10 tekrar</li>
+        <li>Leg Press: 4 set x 12-15 tekrar</li>
+        <li>Leg Curl: 3 set x 12-15 tekrar</li>
+        <li>Calf Raise: 4 set x 20 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Perşembe:</strong> Dinlenme veya hafif kardiyo</li>
+    <li><strong>Cuma (Omuz & Karın):</strong>
+      <ul>
+        <li>Overhead Press: 4 set x 8-10 tekrar</li>
+        <li>Lateral Raises: 4 set x 12-15 tekrar</li>
+        <li>Face Pulls: 3 set x 12-15 tekrar</li>
+        <li>Crunches: 3 set x 20 tekrar</li>
+        <li>Plank: 3 set x 45 saniye</li>
+      </ul>
+    </li>
+    <li><strong>Cumartesi (Full Body Hafif):</strong>
+      <ul>
+        <li>Push-ups: 3 set x maksimum tekrar</li>
+        <li>Bodyweight Squats: 3 set x 20 tekrar</li>
+        <li>Kettlebell Swings: 3 set x 20 tekrar</li>
+        <li>Core Exercises (Russian Twist, Leg Raises): 3 set x 20 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Pazar:</strong> Dinlenme ve iyileşme</li>
+  </ul>
+    </p>
+  </div>
+
+  <div class="training-card">
+    <h2>Kas Kütlesi Kazanmak İçin</h2>
+    <p>
+      Bölgesel split programları ve yüksek hacimli ağırlık antrenmanları yapın.
+      <ul>
+  <li><strong>Pazartesi (Göğüs & Triceps):</strong>
+      <ul>
+        <li>Bench Press: 5 set x 6-8 tekrar</li>
+        <li>Incline Dumbbell Press: 4 set x 8-10 tekrar</li>
+        <li>Cable Fly: 4 set x 12-15 tekrar</li>
+        <li>Triceps Dips: 4 set x 10-12 tekrar</li>
+        <li>Skull Crushers: 3 set x 10-12 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Salı (Sırt & Biceps):</strong>
+      <ul>
+        <li>Deadlift: 5 set x 5-6 tekrar</li>
+        <li>Pull-ups: 4 set x maksimum tekrar</li>
+        <li>Barbell Row: 4 set x 8-10 tekrar</li>
+        <li>Dumbbell Curl: 3 set x 10-12 tekrar</li>
+        <li>Hammer Curl: 3 set x 10-12 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Çarşamba (Bacaklar):</strong>
+      <ul>
+        <li>Squat: 5 set x 6-8 tekrar</li>
+        <li>Leg Press: 4 set x 10-12 tekrar</li>
+        <li>Romanian Deadlift: 4 set x 8-10 tekrar</li>
+        <li>Leg Curl: 4 set x 12-15 tekrar</li>
+        <li>Standing Calf Raise: 4 set x 15-20 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Perşembe:</strong> Dinlenme veya aktif recovery (hafif yürüyüş, esneme)</li>
+    <li><strong>Cuma (Omuz & Karın):</strong>
+      <ul>
+        <li>Overhead Press: 5 set x 6-8 tekrar</li>
+        <li>Lateral Raises: 4 set x 12-15 tekrar</li>
+        <li>Face Pulls: 4 set x 12-15 tekrar</li>
+        <li>Hanging Leg Raises: 3 set x 15 tekrar</li>
+        <li>Plank: 3 set x 1 dakika</li>
+      </ul>
+    </li>
+    <li><strong>Cumartesi (Full Body Hafif):</strong>
+      <ul>
+        <li>Kettlebell Swings: 3 set x 20 tekrar</li>
+        <li>Push-ups: 3 set x maksimum tekrar</li>
+        <li>Bodyweight Squats: 3 set x 20 tekrar</li>
+        <li>Core Exercises (Crunch, Russian Twist): 3 set x 20 tekrar</li>
+      </ul>
+    </li>
+    <li><strong>Pazar:</strong> Dinlenme ve tam iyileşme</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<a class="back-link" href="index.html">← Ana Sayfaya Dön</a>
+
+</body>
+</html>
